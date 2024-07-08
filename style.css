@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Etna, sans-serif;
+	background: #f3f3f3;
+	color: black;
+	line-height: 1.6;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	overflow-y:scroll;
+}
+
+.navbar{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	display: flex;
+	width: 100%;
+	height: 70px;
+	background: rgba(0,0,0,0.7);
+}
+
+.navbar ul{
+	display: flex;
+	list-style: none;
+	width: 100%;
+	justify-content: center;
+}
+
+.navbar li{
+	margin: 0 1rem;
+	padding: 1rem;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #f4f4f4;
+}
+
+.navbar ul li a:hover{
+	color: skyblue;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+}
+
+section h1{
+	font-size: 4rem;
+}
+
+section p{
+	font-size: 1.5rem;
+}
+
+section p1{
+	font-size: 1.1rem;
+	width: 50%;
+	text-align: center;
+}
+
+section p2{
+	font-size: 1rem;
+	width: 25%;
+	text-align: center;
+}
+
+section p3{
+	font-size: 1rem;
+	width: 70%;
+	text-align: left;
+	text-indent: 20px;
+}
+
+section#home{
+	background: url('images/background.png')no-repeat center center/cover;
+}
+
+section#about{
+	background: url('images/about.png')no-repeat center center/cover;
+}
+
+section#service{
+	background: url('images/service.png')no-repeat center center/cover;
+}
+
+section#contact{
+	background: url('images/contact.png')no-repeat center center/cover;
+}
+
+.contact-form {
+    margin-bottom: 2.5px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 2.5px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: skyblue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: skyblue;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 15px;
+    color: #555;
+}
+
+.social-media a:hover {
+    color: skyblue;
+}
